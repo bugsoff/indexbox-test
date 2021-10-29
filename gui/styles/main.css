@@ -1,0 +1,85 @@
+body,
+input,
+select,
+button {
+	font: 1em;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1,
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	margin-left: 256px;
+}
+section {
+	display: flex;
+	justify-content: left;
+}
+aside {
+	width: 240px;
+}
+main {
+	margin: 7px;
+	width: 900px;
+}
+
+fieldset,
+input,
+select,
+article {
+	border: solid 1px #ccc;
+}
+article:hover{
+    background-color:WhiteSmoke;
+    border-color: AntiqueWhite;
+}
+
+legend,
+button {
+	padding: 4px 8px;
+}
+article {
+	margin-top: 8px;
+	padding: 4px 16px;
+	cursor: pointer;
+}
+fieldset {
+	background-color: #eee;
+}
+legend,
+button {
+	font-size: 1.2em;
+	background-color: #cdf;
+	border: solid 1px #ccc;
+}
+
+button:active {
+	border: solid 1px green;
+	background-color: aquamarine;
+}
+input[type="number"] {
+	width: 64px;
+	height: 2em;
+}
+input[type="date"] {
+	width: 144px;
+	height: 2em;
+	margin: 2px auto;
+}
+select {
+	width: 48px;
+	height: 2em;
+}
+select#product {
+	width: 208px;
+}
+p.views {
+	text-align: right;
+	font-size: small;
+	color: grey;
+	margin: 0px;
+}
+p.button {
+	text-align: center;
+}
